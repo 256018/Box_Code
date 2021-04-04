@@ -1,0 +1,15 @@
+/.vscode
+/AverageVolumeofBoxs.gcno
+/BoxCodeCover.exe
+/BoxTest.gcno
+/CountBoxColor.gcno
+/CreateBoxList.gcno
+/DifferenceMaxVolMinVol.gcno
+/MaxHeightBox.gcno
+/MaximumVolBox.gcno
+/MinimumVolBox.gcno
+/PrintBox.gcno
+/RemoveBox.gcno
+/SearchBox.gcno
+/unity.gcno
+/UpdateWeight.gcno
