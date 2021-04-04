@@ -21,9 +21,6 @@ INC_HEADER = header
 $(PROJECT_NAME).exe : $(SRC) $(TEST_SRC)
 	gcc -I $(INC_HEADER) -I $(INC_TEST) $(SRC) $(TEST_SRC) -o $(PROJECT_NAME).exe
 
-cover: $(SRC) $(TEST_SRC)
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 -I $(INC_HEADER) -I $(INC_TEST) $(SRC) $(TEST_SRC) -o $(PROJECT_COVER).exe
 
 run :
 	$(PROJECT_NAME).exe
-	$(PROJECT_COVER).exe
